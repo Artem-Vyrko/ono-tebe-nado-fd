@@ -1,1 +1,1 @@
-https://github.com/Artem-Vyrko/first-project 
+https://github.com/Artem-Vyrko/ono-tebe-nado-fd 
