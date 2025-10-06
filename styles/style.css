@@ -88,7 +88,7 @@
   font: bold 100px/1.15 Raleway, sans-serif;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  margin: 0 0 135px 0;
+  margin: 0;
 }
 
 .cover__title-line {
@@ -97,28 +97,31 @@
 
 .cover__title-line_left {
   text-align: left;
+  line-height: 1;
 }
 
 .cover__title-line_center {
   text-align: center;
-  margin: 20px 0;
+  line-height: 1;
+  margin: 10px 0;
 }
 
 .cover__title-line_right {
   text-align: right;
+  line-height: 1;
+  margin-bottom: 115px;
 }
 
 .cover__description {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: auto;
 }
 
 .cover__subtitle {
   font: 22px/28px Raleway, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
+  word-spacing: 18px;
   white-space: nowrap;
   margin: 0;
 }
@@ -140,9 +143,9 @@
 
 /* LOTS */
 .lots {
-  width: 1100px;
+  max-width: 1052px;
   margin: 180px auto 0;
-  padding: 0 50px;
+  padding: 0 24px;
 }
 
 .lots__heading {
@@ -237,13 +240,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 46px;
+  padding: 63px 46px;
   box-sizing: border-box;
 }
 
 .about__logo-image {
-  width: 100%;
-  height: auto;
+  width: 148px;
+  height: 114px;
 }
 
 .about__title {
@@ -270,7 +273,7 @@
   grid-template-columns: 1fr auto 1fr;
   align-items: start;
   padding: 180px 50px 90px;
-  width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
